@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(45deg, purple, blue);
+        }
+        
+        div{
+            background-color: rgba(0, 0, 0, 0.9);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            padding: 40px;
+            border-radius: 15px;
+            color: white;
+        }
+
+        input{
+            padding: 15px;
+            border: none;
+            outline: none;
+            font-size: 15px;
+            border-radius: 10px;
+            width: 400px;
+        }
+
+        button{
+            background-color: dodgerblue;
+            border: none;
+            padding: 15px;
+            width: 100%;
+            border-radius: 30px;
+            color: white;
+            font-size: 15px;
+        }
+
+        button:hover{
+            background-color: deepskyblue;
+        }
+
+        .titulo {
+            color: white;
+            margin-top: 100px;
+            margin-left: 590px;
+            font-size: 40px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .titulo-2 {
+            margin-top: -30px;
+            font-size: 40px;
+        }
+
+        .footer {
+            color: aliceblue;
+        }
+
+        
+
+        @media (max-width: 450px) {
+            .tela-login {
+                width: 50%;
+                margin-top: 20px;
+            }
+
+            input {
+                width: 180px;
+            }
+
+            body {
+                font-size: 12px;
+            }
+
+            .titulo-2 {
+                font-size: 30px;
+            }
+
+        }
+
+    </style>
+
+    <link rel="stylesheet" href=styles.css>
+</head>
+<body>
+    <div class="tela-login">
+        <section class="titulo-2">
+            <h1>Categorila</h1>
+        </section>
+        <h1>Digite o nome do
+         seu canal</h1>
+         <h2>*não é obrigatório*</h2>
+        <input type="text" placeholder="Nome">
+        <br><br>
+        <a href="carregamento.html">
+            <button>Enviar</button>
+        </a>
+        <p>Site teste para o canal.</p>
+    </div>
+    <section class="footer">
+        <p>Direitos reservados Categorila ©️ 2023-2024</p>
+    </section>
+</body>
+</html>
